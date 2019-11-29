@@ -1,0 +1,194 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*a{
+    text-decoration: none;
+}
+.titulo {
+    font-size: 200%;
+}
+
+.fondo, .fondo-ultimas-noticias {
+    background-color: rgba(128, 128, 128, 0.0, 5);
+    -webkit-box-shadow: -2px -1px 14px 1px rgba(140, 137, 140, 0.66);
+    -moz-box-shadow: -2px -1px 14px 1px rgba(140, 137, 140, 0.66);
+    box-shadow: -2px -1px 14px 1px rgba(140, 137, 140, 0.66);
+}
+
+.fondo-ultimas-noticias {
+    background-color: white;
+}
+
+.fondo-tabla {
+    background: linear-gradient(to left, #003366 0%, #009999 100%);
+}
+
+.fondo-footer {
+    margin-top: 2%;
+    background: linear-gradient(to bottom, #003366 0%, #009999 100%);
+    -webkit-box-shadow: -2px -9px 15px -6px rgba(0, 0, 0, 0.76);
+    -moz-box-shadow: -2px -9px 15px -6px rgba(0, 0, 0, 0.76);
+    box-shadow: -2px -9px 15px -6px rgba(0, 0, 0, 0.76);
+}
+
+.fondo-nav {
+    background-color: #006699;
+}
+
+.titulo-fondo {
+    background: linear-gradient(to right, #009999 0%, #006699 100%);
+}
+
+.align {
+    float: right;
+}
+
+picture {
+    box-shadow: 10px 5px 5px black;
+}
+
+.fondo-equipos {
+    background-color: white;
+}
+
+.tamaño-fecha {
+    background: linear-gradient(to right, #660033 0%, #660033 100%);
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.fechas {
+    width: 100%;
+}
+
+.fechas img {
+    width: 80%;
+}
+
+.fondo-list {
+    background-color: #660033;
+    color: white;
+}
+
+.resaltado {
+    color: black
+}
+
+.ocultar {
+    visibility: collapse;
+}
+
+.mostrarFila {
+    display: table-row;
+}
+
+#captcha {
+    background: #005e7c;
+}
+
+#botonEnviar {
+    background: #348e2e;
+}
+
+.centrar {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.fixed-center {
+    position: fixed;
+    width: 100%;
+    
+    left: 50%;
+    transform: translate(-48%,18%);
+    padding: 4% 4% 4% 4%;
+    border: 3px solid rgb(25, 96, 117);
+    -webkit-box-shadow: 3px 2px 47px -21px rgba(54,115,107,1);
+    -moz-box-shadow: 3px 2px 47px -21px rgba(54,115,107,1);
+    box-shadow: 3px 2px 47px -21px rgba(54,115,107,1);
+}
+
+.registro a{
+    text-decoration: none;
+    font-size: 250%;
+    font-weight:lighter;
+    color: white ;
+}
+.btnBorrar{
+    background: linear-gradient(to bottom, #990000 0%, #990000 100%);
+ 
+}
+
+.btnEditar{
+    background: linear-gradient(to bottom, #ff9900 0%, #ff9900 100%);
+}
+
+.btnCrear{
+    background: linear-gradient(to bottom, #3366ff 0%, #3366ff 100%);
+}
+
+.capa1,.capa2,.capa3,.registro{
+    padding: 1.5% 1.5% 1.5% 1.5%;
+}
+.capa1{
+    background-color:#3333cc;
+}
+.capa2{
+    background-color: #336699;
+
+}
+.capa3{
+    background-color: #009999;
+}
+
+.capa1:hover{
+    background-color: #990000;
+}
+.capa2:hover{
+    background-color: red;
+}
+.capa3:hover{
+    background-color: yellow;
+}
+.registro:hover{
+    background-color: #ffcc00;
+}
+
+.registro{
+    background-color:#33cccc ;
+}
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+
+  }
+
+  .resaltado{
+    font-size: 110%;
+    color: rgb(0, 153, 255);
+  }
+
+    .ranking tr:nth-child(even) {
+    background-color: #ddd;
+    }
+    .ranking tr:hover td {
+        background-color: #367396;
+        color: white;
+    }
+
+  .bg-comment{
+    background: linear-gradient(to bottom, #006699 0%, #006699 100%);
+    color: white;
+    size: 125%;
+  }
+  .estiloTitulo{
+    text-decoration: none;
+    color: white;
+  }
